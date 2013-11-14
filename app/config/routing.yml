@@ -1,0 +1,4 @@
+gamma_main:
+    resource: "@GammaMainBundle/Resources/config/routing.yml"
+    prefix:   /
+

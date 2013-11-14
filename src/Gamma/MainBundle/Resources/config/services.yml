@@ -1,0 +1,7 @@
+parameters:
+#    gamma_main.example.class: Gamma\MainBundle\Example
+
+services:
+#    gamma_main.example:
+#        class: %gamma_main.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

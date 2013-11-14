@@ -1,0 +1,7 @@
+gamma_main_homepage:
+    pattern:  /
+    defaults: { _controller: GammaMainBundle:Default:index }
+    
+gamma_main_about:
+    pattern:  /about
+    defaults: { _controller: GammaMainBundle:Default:about }    
