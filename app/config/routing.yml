@@ -1,3 +1,7 @@
+gamma_security:
+    resource: "@GammaSecurityBundle/Resources/config/routing.yml"
+    prefix:   /
+
 gamma_main:
     resource: "@GammaMainBundle/Resources/config/routing.yml"
     prefix:   /

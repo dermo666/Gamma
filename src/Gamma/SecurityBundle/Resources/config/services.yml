@@ -1,0 +1,7 @@
+parameters:
+#    gamma_security.example.class: Gamma\SecurityBundle\Example
+
+services:
+#    gamma_security.example:
+#        class: %gamma_security.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
