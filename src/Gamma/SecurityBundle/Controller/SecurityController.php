@@ -35,6 +35,10 @@ class SecurityController extends Controller
     public function loginCheckAction()
     {
     	// The security layer will intercept this request
+    }
+
+    public function logoutAction()
+    {
+    	// The security layer will intercept this request
     }    
-    
 }

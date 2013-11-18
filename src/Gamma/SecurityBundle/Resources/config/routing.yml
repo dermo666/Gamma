@@ -5,4 +5,8 @@ login:
 login_check:
     pattern: /login_check
     defaults: { _controller: GammaSecurityBundle:Security:loginCheck }
+
+logout:
+    pattern: /logout
+    defaults: { _controller: GammaSecurityBundle:Security:logout }
     
