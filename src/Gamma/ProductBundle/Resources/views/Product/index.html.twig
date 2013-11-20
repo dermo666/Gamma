@@ -1,0 +1,25 @@
+{% extends 'GammaMainBundle::two_column_layout.html.twig' %}
+
+{% block title %}About{% endblock %}
+
+{% block sidebar %}
+	<h2>Filter</h2>
+	<p>... </p>
+{% endblock %}
+
+{% block content %}	
+	<h1>Products</h1>
+	
+	<div class="row">
+	{% for row in data %}
+		<div class="col-lg-4">
+    		<h2>{{ row.name }}</h2>
+    		<h3>{{ row.type }} </h3>
+    		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+    		<p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+		</div>    	
+	{% endfor %}	
+    </div>	
+
+	
+{% endblock %}

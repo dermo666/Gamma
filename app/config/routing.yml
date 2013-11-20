@@ -1,6 +1,6 @@
 gamma_product:
     resource: "@GammaProductBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /product
 
 gamma_security:
     resource: "@GammaSecurityBundle/Resources/config/routing.yml"
